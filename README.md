@@ -36,5 +36,7 @@ MMDNet consists of three key modules:
 - **RIFM** – noise-resistant fusion of dual-path features.  
 - **RABM** – balances regional attention to refine object boundaries.  
 
-![Architecture](models/model1.pdf)  <!-- Replace with your figure path -->
+![Architecture and RABM](models/model1.jpg)  <!-- Replace with your figure path -->
+![RIFM](models/model2.jpg)  <!-- Replace with your figure path -->
+![AIC-XLSTM](models/model3.jpg)  <!-- Replace with your figure path -->
 
