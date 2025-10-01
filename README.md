@@ -13,7 +13,7 @@ This repository provides the official implementation of the paper:
 - **AIC-XLSTM**: an enhanced Vision-LSTM with an Adaptive Information Compensation Module to amplify differences between similar categories while maintaining lightweight design.  
 - **Reinforced Information Fusion Module (RIFM)**: filters noise and fuses multi-path features with a three-stage strategy.  
 - **Regional Attention Balancing Module (RABM)**: improves boundary classification by distributing attention smoothly across objects and edges.  
-- Achieves **state-of-the-art accuracy with minimal parameters** on four remote sensing datasets (Vaihingen, Potsdam, LoveDA, FloodNet).  
+- Achieves **state-of-the-art accuracy with minimal parameters** on four remote sensing datasets (Vaihingen, Potsdam, LoveDA).  
 
 ---
 
