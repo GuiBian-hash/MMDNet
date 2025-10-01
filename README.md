@@ -27,7 +27,6 @@ Accepted in **Pattern Recognition (PR), Elsevier, 2025**
 | Vaihingen | **76.28**     | **7.16**        | +0.24% over UNetFormer with 40% fewer params |
 | Potsdam   | **82.70**     | **7.16**        | Outperforms heavier models (CMTFNet, MANet) |
 | LoveDA    | **50.99**     | **7.16**        | Highest mIoU with only ~20% of competing model size |
-| FloodNet  | Strong SOTA   | **7.16**        | Robust under disaster scene segmentation |
 
 ---
 
@@ -39,6 +38,3 @@ MMDNet consists of three key modules:
 
 ![Architecture](docs/mmdnet_architecture.png)  <!-- Replace with your figure path -->
 
----
-
-## 📂 Repository Structure
