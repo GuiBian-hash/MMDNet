@@ -3,9 +3,6 @@
 This repository provides the official implementation of the paper:  
 
 **"A Lightweight Multilevel Multiscale Dual-Path Fusion Network for Remote Sensing Semantic Segmentation"**  
-_Hong Ye, Jiaming Chang, Ke Wang, Zhaohong Jia, Wei Sun, Zhiwei Li_  
-Accepted in **Pattern Recognition (PR), Elsevier, 2025**  
-[DOI: 10.1016/j.patcog.2025.112483](https://doi.org/10.1016/j.patcog.2025.112483)  
 
 ---
 
