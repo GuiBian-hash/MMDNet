@@ -24,6 +24,17 @@ This repository provides the official implementation of the paper:
 | Vaihingen | **76.28**     | **7.16**        | +0.24% over UNetFormer with 40% fewer params |
 | Potsdam   | **82.70**     | **7.16**        | Outperforms heavier models (CMTFNet, MANet) |
 | LoveDA    | **50.99**     | **7.16**        | Highest mIoU with only ~20% of competing model size |
+---
+
+## ⚙️ Training Settings
+- **Optimizer**: AdamW with weight decay of 0.01  
+- **Initial learning rate**: 0.0006  
+- **Learning rate schedule**: Cosine annealing with cycle length of 20  
+- **Epochs**: 200  
+- **Backbone**: ResNet-18 pre-trained on ImageNet  
+- **Initialization**: Remaining modules are initialized randomly  
+- **Loss function**: Dice loss  
+- **Evaluation metrics**: Mean Intersection over Union (mIoU) and Average F1-score (Ave.F1)  
 
 ---
 
@@ -33,7 +44,6 @@ MMDNet consists of three key modules:
 - **RIFM** – noise-resistant fusion of dual-path features.  
 - **RABM** – balances regional attention to refine object boundaries.  
 
-![Architecture and RABM](models/model1.jpg)  <!-- Replace with your figure path -->
-![RIFM](models/model2.jpg)  <!-- Replace with your figure path -->
-![AIC-XLSTM](models/model3.jpg)  <!-- Replace with your figure path -->
-
+![Architecture and RABM](models/model1.jpg)  
+![RIFM](models/model2.jpg)  
+![AIC-XLSTM](models/model3.jpg)  
